@@ -125,6 +125,7 @@ elif menu == "STEM Data Explorer":
 
 elif menu == "Contact":
     # Add a contact section
+    name = "Maya Muñoz"
     st.header("Contact Information")
     email = "MNZMAY001@myuct.ac.za"
     st.write(f"You can reach {name} at {email}.")
