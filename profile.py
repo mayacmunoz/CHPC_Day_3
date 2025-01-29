@@ -53,7 +53,7 @@ if menu == "Researcher Profile":
 
     # Display basic profile information
     st.write(f"**Name:** {name}")
-    st.write(f"**Academic Level:** {level}"
+    st.write(f"**Academic Level:** {level}")
     st.write(f"**Field of Research:** {field}")
     st.write(f"**Institution:** {institution}")
 
