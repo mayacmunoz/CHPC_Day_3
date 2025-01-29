@@ -11,7 +11,7 @@ menu = st.sidebar.radio(
 
 
 # Set page title
-st.set_page_config(page_title="Researcher Profile /ᐠ ˵> ⩊ <˵マ", layout="wide")
+st.title("Researcher Profile Page /ᐠ ˵> ⩊ <˵マ")
 
 # Sidebar Menu
 st.sidebar.title("Navigation")
