@@ -1,17 +1,9 @@
 import streamlit as st
 import pandas as pd
-
-
-# Sidebar Menu
-st.sidebar.title("Navigation")
-menu = st.sidebar.radio(
-    "Go to:",
-    ["Researcher Profile", "Publications", "STEM Data Explorer", "Contact"],
-)
-
+import numpy as np
 
 # Set page title
-st.title("Researcher Profile Page /ᐠ ˵> ⩊ <˵マ")
+st.set_page_config(page_title="Maya Muñoz's Researcher Profile ", layout="wide")
 
 # Sidebar Menu
 st.sidebar.title("Navigation")
@@ -131,9 +123,8 @@ elif menu == "STEM Data Explorer":
         st.write(f"Filtered Results for Temperature {temp_filter} and Humidity {humidity_filter}:")
         st.dataframe(filtered_weather)
 
-
 elif menu == "Contact":
     # Add a contact section
     st.header("Contact Information")
-    email = "mnzmay001@myuct.com"
+    email = "MNZMAY001@myuct.ac.za"
     st.write(f"You can reach {name} at {email}.")
